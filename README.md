@@ -2,9 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-x-special/nautilus-clipboard
-copy
-file:///home/carl/Pictures/Screenshot%20from%202021-08-17%2020-27-48.png
+![Screenshot from 2021-08-17 20-27-48](https://user-images.githubusercontent.com/64914462/129775083-43a8bf77-dc82-49cd-99bd-4002e4fab008.png)
+
 
 
 
