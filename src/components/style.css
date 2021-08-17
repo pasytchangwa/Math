@@ -14,7 +14,6 @@
   align-items: center;
   height: 40px;
   color: white;
-
 }
 
 .main-section {
@@ -22,11 +21,11 @@
   grid-template-columns: 90px 90px 90px 90px;
   grid-template-rows: 50px 50px 50px 50px 50px;
   grid-template-areas:
-  "a b c d"
-  "e f g h"
-  "i j k l"
-  "m n o p"
-  "q q r s";
+    "a b c d"
+    "e f g h"
+    "i j k l"
+    "m n o p"
+    "q q r s";
 }
 
 .cell1 {
@@ -107,13 +106,14 @@
 
 button {
   text-align: center;
+
   /* width: 90px;
   height: 50px; */
   border: 1px solid gray;
 }
 
 .left-most {
-  background-color: light-grey;
+  background-color: lightsteelblue;
 }
 
 .right-most {
