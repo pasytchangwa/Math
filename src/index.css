@@ -1,6 +1,6 @@
 body {
   margin:
-    0;
+  0;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -20,7 +20,8 @@ body {
 code {
   font-family:
     source-code-pro,
-    Menlo, Monaco,
+    Menlo,
+    Monaco,
     Consolas,
     "Courier New",
     monospace;
