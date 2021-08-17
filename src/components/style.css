@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 15%;
+  height: 100px;
+  margin: 300px auto;
+}
+
+.operation-result {
+  background-color: grey;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 6px;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+button {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border: 1px solid gray;
+}
+
+.left-most {
+  background-color: light-grey;
+}
+
+.right-most {
+  background-color: orangered;
+}
+
+.wider {
+  flex-grow: 2;
+}
