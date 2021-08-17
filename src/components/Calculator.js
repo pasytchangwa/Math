@@ -1,5 +1,5 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 export default class CalcApp extends React.Component {
   constructor(props) {
@@ -13,64 +13,64 @@ export default class CalcApp extends React.Component {
   render() {
     const { res } = this.state;
     return (
-      <div className='wrapper'>
-        <span className='operation-result'>{res}</span>
-        <section className='main-section'>
-          <button type='button' className='left-most cell1'>
+      <div className="wrapper">
+        <span className="operation-result">{res}</span>
+        <section className="main-section">
+          <button type="button" className="left-most cell1">
             AC
           </button>
-          <button type='button' className='left-most cell2'>
+          <button type="button" className="left-most cell2">
             +/-
           </button>
-          <button type='button' className='left-most cell3'>
+          <button type="button" className="left-most cell3">
             %
           </button>
-          <button type='button' className='right-most cell4'>
+          <button type="button" className="right-most cell4">
             /
           </button>
-          <button type='button' className='left-most cell5'>
+          <button type="button" className="left-most cell5">
             7
           </button>
-          <button type='button' className='left-most cell6'>
+          <button type="button" className="left-most cell6">
             8
           </button>
-          <button type='button' className='left-most cell7'>
+          <button type="button" className="left-most cell7">
             9
           </button>
-          <button type='button' className='right-most cell8'>
+          <button type="button" className="right-most cell8">
             x
           </button>
-          <button type='button' className='left-most cell9'>
+          <button type="button" className="left-most cell9">
             4
           </button>
-          <button type='button' className='left-most cell10'>
+          <button type="button" className="left-most cell10">
             5
           </button>
-          <button type='button' className='left-most cell11'>
+          <button type="button" className="left-most cell11">
             6
           </button>
-          <button type='button' className='right-most cell12'>
+          <button type="button" className="right-most cell12">
             -
           </button>
-          <button type='button' className='left-most cell13'>
+          <button type="button" className="left-most cell13">
             1
           </button>
-          <button type='button' className='left-most cell14'>
+          <button type="button" className="left-most cell14">
             2
           </button>
-          <button type='button' className='left-most cell15'>
+          <button type="button" className="left-most cell15">
             3
           </button>
-          <button type='button' className='right-most cell16'>
+          <button type="button" className="right-most cell16">
             +
           </button>
-          <button type='button' className='left-most wider cell17'>
+          <button type="button" className="left-most wider cell17">
             0
           </button>
-          <button type='button' className='left-most cell18'>
+          <button type="button" className="left-most cell18">
             .
           </button>
-          <button type='button' className='right-most cell19'>
+          <button type="button" className="right-most cell19">
             =
           </button>
         </section>
