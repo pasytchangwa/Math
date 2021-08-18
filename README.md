@@ -1,10 +1,23 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project online link
+
+[Available soon]().
+
+# Math-Magicians Project: Handling events
+
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+- Make simple calculations.
+- Read a random math-related quote.
+
+The aim of this project is to learn how to use React.
+
 ![Screenshot from 2021-08-17 20-27-48](https://user-images.githubusercontent.com/64914462/129775083-43a8bf77-dc82-49cd-99bd-4002e4fab008.png)
-
-
 
 
 ## Built With
