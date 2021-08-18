@@ -1,8 +1,8 @@
-import React,{ Component } from 'react';
+import React from 'react';
 import './style.css';
 import calculate from '../logic/calculator';
 
-export default class CalcApp extends Component {
+export default class CalcApp extends React.Component {
   constructor(props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
