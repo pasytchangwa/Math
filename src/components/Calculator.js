@@ -1,4 +1,4 @@
-import React,{ Component } from 'react';
+import React, { Component } from 'react';
 import './style.css';
 import calculate from '../logic/calculator';
 
@@ -17,7 +17,7 @@ export default class CalcApp extends Component {
     const { total, next, operation } = this.state;
     const show = (total || '') + (operation || '') + (next || '');
 
-    return (show || "0");
+    return (show || '0');
   };
 
   render() {
