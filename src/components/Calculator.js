@@ -50,12 +50,12 @@ export default class CalcApp extends Component {
             %
           </button>
           <button
-            name="/"
+            name="&#247;"
             type="button"
             className="right-most cell4"
             onClick={(ev) => this.handleClick(ev.target.name)}
           >
-            /
+            &#247;
           </button>
           <button
             name="7"
@@ -179,6 +179,6 @@ export default class CalcApp extends Component {
           </button>
         </section>
       </div>
-    );
+    )
   }
 }
