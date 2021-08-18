@@ -64,7 +64,7 @@ export default class CalcApp extends React.Component {
           <button type="button" className="right-most cell16">
             +
           </button>
-          <button type="button" className="left-most wider cell17">
+          <button type="button" className="left-most cell17">
             0
           </button>
           <button type="button" className="left-most cell18">
