@@ -5,8 +5,8 @@ import calculate from '../logic/calculator';
 export default class CalcApp extends React.Component {
   constructor(props) {
     super(props);
-    this.handleClick = this.handleClick.bind(this);
     this.state = {};
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = (buttonName) => {
@@ -17,7 +17,7 @@ export default class CalcApp extends React.Component {
     const { total, next, operation } = this.state;
     const solution = (total || '') + (next || '') + (operation || '');
 
-    return (solution || '');
+    return (solution || '0');
   };
 
   render() {
@@ -26,6 +26,7 @@ export default class CalcApp extends React.Component {
         <span className="operation-result">{this.showSolution()}</span>
         <section className="main-section">
           <button
+            name="AC"
             type="button"
             className="left-most cell1"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -33,6 +34,7 @@ export default class CalcApp extends React.Component {
             AC
           </button>
           <button
+            name="+/-"
             type="button"
             className="left-most cell2"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -40,6 +42,7 @@ export default class CalcApp extends React.Component {
             +/-
           </button>
           <button
+            name="%"
             type="button"
             className="left-most cell3"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -47,6 +50,7 @@ export default class CalcApp extends React.Component {
             %
           </button>
           <button
+            name="/"
             type="button"
             className="right-most cell4"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -54,6 +58,7 @@ export default class CalcApp extends React.Component {
             /
           </button>
           <button
+            name="7"
             type="button"
             className="left-most cell5"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -61,6 +66,7 @@ export default class CalcApp extends React.Component {
             7
           </button>
           <button
+            name="8"
             type="button"
             className="left-most cell6"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -68,6 +74,7 @@ export default class CalcApp extends React.Component {
             8
           </button>
           <button
+            name="9"
             type="button"
             className="left-most cell7"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -75,6 +82,7 @@ export default class CalcApp extends React.Component {
             9
           </button>
           <button
+            name="x"
             type="button"
             className="right-most cell8"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -82,6 +90,7 @@ export default class CalcApp extends React.Component {
             x
           </button>
           <button
+            name="4"
             type="button"
             className="left-most cell9"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -89,6 +98,7 @@ export default class CalcApp extends React.Component {
             4
           </button>
           <button
+            name="5"
             type="button"
             className="left-most cell10"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -96,6 +106,7 @@ export default class CalcApp extends React.Component {
             5
           </button>
           <button
+            name="6"
             type="button"
             className="left-most cell11"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -103,6 +114,7 @@ export default class CalcApp extends React.Component {
             6
           </button>
           <button
+            name="-"
             type="button"
             className="right-most cell12"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -110,6 +122,7 @@ export default class CalcApp extends React.Component {
             -
           </button>
           <button
+            name="1"
             type="button"
             className="left-most cell13"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -117,6 +130,7 @@ export default class CalcApp extends React.Component {
             1
           </button>
           <button
+            name="2"
             type="button"
             className="left-most cell14"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -124,6 +138,7 @@ export default class CalcApp extends React.Component {
             2
           </button>
           <button
+            name="3"
             type="button"
             className="left-most cell15"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -131,6 +146,7 @@ export default class CalcApp extends React.Component {
             3
           </button>
           <button
+            name="+"
             type="button"
             className="right-most cell16"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -138,6 +154,7 @@ export default class CalcApp extends React.Component {
             +
           </button>
           <button
+            name="0"
             type="button"
             className="left-most cell17"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -145,6 +162,7 @@ export default class CalcApp extends React.Component {
             0
           </button>
           <button
+            name="."
             type="button"
             className="left-most cell18"
             onClick={(ev) => this.handleClick(ev.target.name)}
@@ -152,6 +170,7 @@ export default class CalcApp extends React.Component {
             .
           </button>
           <button
+            name="="
             type="button"
             className="right-most cell19"
             onClick={(ev) => this.handleClick(ev.target.name)}
