@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The aim of this project is to learn how to use React.
 
-![Screenshot from 2021-08-18 18-02-28](https://user-images.githubusercontent.com/64914462/129922597-19f6a5ce-93fd-4400-9977-0ebedc275a92.png)
+![Screenshot from 2021-08-18 18-16-06](https://user-images.githubusercontent.com/64914462/129924752-757fb6dd-8724-488b-887d-552e63e58f28.png)
 
 
 ## Built With
