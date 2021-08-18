@@ -1,8 +1,8 @@
-import React from 'react';
+import React,{ Component } from 'react';
 import './style.css';
 import calculate from '../logic/calculator';
 
-export default class CalcApp extends React.Component {
+export default class CalcApp extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -15,9 +15,9 @@ export default class CalcApp extends React.Component {
 
   showSolution = () => {
     const { total, next, operation } = this.state;
-    const solution = (total || '') + (next || '') + (operation || '');
+    const show = (total || '') + (operation || '') + (next || '');
 
-    return (solution || '0');
+    return (show || "0");
   };
 
   render() {
