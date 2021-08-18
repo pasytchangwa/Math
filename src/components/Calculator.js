@@ -179,6 +179,6 @@ export default class CalcApp extends Component {
           </button>
         </section>
       </div>
-    )
+    );
   }
 }
