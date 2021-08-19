@@ -14,7 +14,7 @@ const CalcApp = () => {
 
   return (
     <div className="wrapper">
-      <span className="operation-result">{show}</span>
+      <span className="operation-result">{show || '0'}</span>
       <section className="main-section">
         <button
           name="AC"
