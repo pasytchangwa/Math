@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [Available soon]().
 
-# Math-Magicians Project: Handling events
+# Math-Magicians Project: Implement hooks
 
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
@@ -17,8 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The aim of this project is to learn how to use React.
 
-![Screenshot from 2021-08-18 18-16-06](https://user-images.githubusercontent.com/64914462/129924752-757fb6dd-8724-488b-887d-552e63e58f28.png)
-
+![Screenshot from 2021-08-19 15-03-33](https://user-images.githubusercontent.com/64914462/130065511-9edafd3b-6137-45d6-9132-2274e9d4e0d8.png)
 
 ## Built With
 
