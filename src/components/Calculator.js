@@ -1,26 +1,16 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import calculate from '../logic/calculator';
 
-export default class CalcApp extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-    this.handleClick = this.handleClick.bind(this);
-  }
+const CalcApp = () => {
+  const {state, setState} = useState({});
 
-  handleClick = (buttonName) => {
-    this.setState((state) => calculate(state, buttonName));
+  const handleClick = (ev) => {
+    setState(() => {ev.target.name})
   };
 
-  showSolution = () => {
-    const { total, next, operation } = this.state;
-    const show = (total || '') + (operation || '') + (next || '');
-
-    return (show || '0');
-  };
-
-  render() {
+  const { total, next, operation } = this.state;
+  const show = (total || '') + (operation || '') + (next || '');
     return (
       <div className="wrapper">
         <span className="operation-result">{this.showSolution()}</span>
@@ -180,5 +170,6 @@ export default class CalcApp extends Component {
         </section>
       </div>
     );
-  }
 }
+
+export default CalcApp;
