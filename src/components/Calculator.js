@@ -3,23 +3,24 @@ import './style.css';
 import calculate from '../logic/calculator';
 
 const CalcApp = () => {
-  const {state, setState} = useState({});
+  const [state, setState] = useState({});
 
   const handleClick = (ev) => {
-    setState(() => {ev.target.name})
+    setState({ ...state, ...calculate(state, ev.target.name) });
   };
 
-  const { total, next, operation } = this.state;
+  const { total, next, operation } = state;
   const show = (total || '') + (operation || '') + (next || '');
-    return (
+
+  return (
       <div className="wrapper">
-        <span className="operation-result">{this.showSolution()}</span>
+        <span className="operation-result">{show}</span>
         <section className="main-section">
           <button
             name="AC"
             type="button"
             className="left-most cell1"
-            onClick={(ev) => this.handleClick(ev.target.name)}
+            onClick={handleClick}
           >
             AC
           </button>
