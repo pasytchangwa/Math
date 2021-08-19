@@ -171,6 +171,6 @@ const CalcApp = () => {
       </section>
     </div>
   );
-}
+};
 
 export default CalcApp;
