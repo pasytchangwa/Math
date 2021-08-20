@@ -2,7 +2,7 @@
   "name": "my-math",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{Github-username}.github.io/{Github-repo-name}",
+  "homepage": "http://pasytchangwa.github.io/Math",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
