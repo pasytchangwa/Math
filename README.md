@@ -4,11 +4,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Math-Magicians Project: Implement hooks
+# TodoList React: Tutorial
 
-Learning how to build a todo list using React
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+- Make simple calculations.
+- Read a random math-related quote.
+
+The aim of this project is to learn how to use React.
 
 # Project online link
+
+[Click here](https://pasytchangwa.github.io/Math/) to see a sample demo.
+
+![Screenshot from 2021-08-19 15-03-33](https://user-images.githubusercontent.com/64914462/130065511-9edafd3b-6137-45d6-9132-2274e9d4e0d8.png)
 
 ## Built With
 
@@ -71,3 +80,4 @@ Give a :star: if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
