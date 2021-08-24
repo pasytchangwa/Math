@@ -14,20 +14,21 @@ const Nav = () => {
       <h2 className="title">Math magicians</h2>
       <ul>
         <li style={navStyle}>
-            <Link style={dec} to="/home">
-          Home |
+          <Link style={dec} to="/home">
+            Home |
           </Link>
         </li>
-        <li style={navStyle}>        
+        <li style={navStyle}>      
           <Link style={dec} to="/calculate">
             Calculator |
           </Link>
         </li>
         <li style={navStyle}>
-           <Link style={dec} to="/quote">Quote
-           </Link>
+          <Link style={dec} to="/quote">
+            Quote
+          </Link>
         </li>
-     </ul>
+      </ul>
     </nav>
   );
 };
