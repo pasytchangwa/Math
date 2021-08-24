@@ -1,0 +1,10 @@
+.quotation {
+  width: 90%;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
