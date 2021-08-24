@@ -4,27 +4,29 @@ import './Nav.css';
 
 const Nav = () => {
   const navStyle = {
-   color: 'white',
+   color: 'black',
   };
+  const dec = {
+    textDecoration: 'none',
+  }
   return (
-    <div>
-      <nav>
-        <h2 className="title">Math magicians</h2>
-        <ul>
-          <Link to="/">
-            <li style={navStyle}>Home</li>
+    <nav>
+      <h2 className="title">Math magicians</h2>
+      <ul>
+        <li style={navStyle}>
+          <Link style={dec} to="/home">
+          Home |
           </Link>
-          <Link to="/calculator">
-            <li className="middle" style={navStyle}>
-              Calculator
-            </li>
-          </Link>
-          <Link to="/quote">
-            <li style={navStyle}>Quote</li>
-          </Link>
-        </ul>
-      </nav>
-    </div>
+        </li>
+        <li style={navStyle}>       <Link style={dec} to="/calculate">Calculator |
+        </Link>
+        </li>
+        <li style={navStyle}>
+         <Link style={dec} to="/quote">Quote
+         </Link>
+        </li>
+     </ul>
+    </nav>
   );
 }
 
