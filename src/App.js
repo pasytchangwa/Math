@@ -1,27 +1,29 @@
 /* eslint-disable max-classes-per-file, react/prefer-stateless-function */
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import CalcApp from './components/Calculator';
-import './components/style.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './Nav';
-import Home from './sub-component/Home';
-import CalcPage from './sub-component/Calc';
-import Quote from './sub-component/Quote';
+import Home from './displays/Home';
+import Calculate from './displays/CalcPage';
+import Quote from './displays/Quote';
+import './components/style.css';
 
 const App = () => {
 return (
   <Router>
     <Switch>
-      <Route path="/home">
-        <Home />
-      </Route>
-      <Route path="/calculator">
-        <CalcPage />
-      </Route>
-      <Route path="/quote">
-        <Quote />
-      </Route>
+      <div>
+        <Nav />
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/calculate">
+          <Calculate />
+        </Route>
+        <Route path="/quote">
+          <Quote />
+        </Route>
+      </div>
     </Switch>
   </Router>
 );

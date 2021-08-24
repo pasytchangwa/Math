@@ -1,5 +1,5 @@
 .title {
-  font-size: 36px;
+  font-size: 2rem;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 nav {
-  background-color: darkgoldenrod;
+  background-color: skyblue;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -18,18 +18,15 @@ nav ul {
   width: 260px;
   display: flex;
   justify-content: space-between;
-  font-style: italic;
-  color: white;
-  list-style-type: none;
-  text-decoration: none;
 }
 
 nav li {
-  font-size: 22px;
-  background-color: darkred;
+  font-size: 1.5rem;
   list-style: none;
+  text-decoration: none;
 }
 
-.middle {
-  padding: 0 0.8rem;
+Link {
+  text-decoration: none;
 }
+
