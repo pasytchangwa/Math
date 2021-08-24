@@ -18,7 +18,7 @@ const Nav = () => {
             Home |
           </Link>
         </li>
-        <li style={navStyle}>      
+        <li style={navStyle}>
           <Link style={dec} to="/calculate">
             Calculator |
           </Link>
