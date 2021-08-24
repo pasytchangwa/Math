@@ -1,8 +1,7 @@
 import React from 'react';
 import './Quote.css';
 
-const Quote = () => {
-  return (
+const Quote = () => (
     <div className="quotation">
       <i>
         Mathematics as an expression of the human mind reflects the active will,
@@ -12,6 +11,5 @@ const Quote = () => {
       </i>
     </div>
   );
-}
 
 export default Quote;

@@ -8,8 +8,7 @@ import Calculate from './displays/CalcPage';
 import Quote from './displays/Quote';
 import './components/style.css';
 
-const App = () => {
-return (
+const App = () => (
   <Router>
     <Switch>
       <div>
@@ -27,6 +26,5 @@ return (
     </Switch>
   </Router>
 );
-}
 
 export default App;

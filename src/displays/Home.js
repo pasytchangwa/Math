@@ -1,8 +1,7 @@
 import React from 'react';
 import './Home.css';
 
-const Home = () => {
-  return (
+const Home = () => (
     <div className="home-section">
       <h2 className="home-title">Welcome to my page!</h2>
       <div className="home-info">
@@ -37,6 +36,5 @@ const Home = () => {
       </div>
     </div>
   );
-}
 
 export default Home;
