@@ -2,11 +2,11 @@ import React from 'react';
 import CalcApp from '../components/Calculator';
 import './CalcPage.css';
 
-const CalcPage = () => (
+const Calculate = () => (
   <div className="calc-section">
-    <h2 className="calc-title">E=MC2</h2>
+    <p className="calc-title">Let's do some math!</p>
     <CalcApp />
   </div>
 );
 
-export default CalcPage;
+export default Calculate;
