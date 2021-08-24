@@ -3,11 +3,14 @@ import './Quote.css';
 
 const Quote = () => {
   return (
-    <i className="quotation">
-      Do not worry too much about your difficulties in mathematics I can assure
-      you that mine are still greater. Pure mathematics is, in its way, the
-      poetry of logical ideas.
-    </i>
+    <div className="quotation">
+      <i>
+        Mathematics as an expression of the human mind reflects the active will,
+        the contemplative reason, and the desire for aesthetic perfection. Its
+        basic elements are logic and intuition, analysis and construction,
+        generality and individuality.
+      </i>
+    </div>
   );
 }
 
