@@ -1,9 +1,11 @@
 .calc-section {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 4rem 0 4rem;
+  width: 100%;
+  padding: 1.5rem 1.2rem 1rem 1.2rem;
 }
 
 .calc-title {
   font-size: 2rem;
+  font-weight: bold;
 }
