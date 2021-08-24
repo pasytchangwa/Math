@@ -17,7 +17,7 @@ The aim of this project is to learn how to use React.
 
 [Click here](https://pasytchangwa.github.io/Math/) to see a sample demo.
 
-![Screenshot from 2021-08-19 15-03-33](https://user-images.githubusercontent.com/64914462/130065511-9edafd3b-6137-45d6-9132-2274e9d4e0d8.png)
+![Screenshot from 2021-08-24 20-45-20](https://user-images.githubusercontent.com/64914462/130664708-721aec89-ced5-4766-add7-b12849b99692.png)
 
 ## Built With
 
