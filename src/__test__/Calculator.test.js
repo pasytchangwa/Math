@@ -6,4 +6,3 @@ test('It should render the calculation result', () => {
   const tree = renderer.create(<CalcApp />).toJSON();
   expect(tree).toMatchSnapshot();
 });
-
