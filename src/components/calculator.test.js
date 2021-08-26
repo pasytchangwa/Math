@@ -22,28 +22,28 @@ describe('should test buttons of calculator', () => {
     fireEvent.click(screen.getByText(nextValue));
     expect(result.textContent).toEqual(initial + operator + nextValue);
   });
- it('Tests addition operation', () => {
-   fireEvent.click(screen.getByText('+'));
-   fireEvent.click(screen.getByText('6'));
-   fireEvent.click(screen.getByText('='));
-   expect(result.textContent).toEqual(`${9 + 6}`);
- });
- it('Tests substraction operation', () => {
-   fireEvent.click(screen.getByText('-'));
-   fireEvent.click(screen.getByText('6'));
-   fireEvent.click(screen.getByText('='));
-   expect(result.textContent).toEqual(`${9 - 6}`);
- });
- it('Tests division operation', () => {
-   fireEvent.click(screen.getByText('÷'));
-   fireEvent.click(screen.getByText('6'));
-   fireEvent.click(screen.getByText('='));
-   expect(result.textContent).toEqual(`${9 / 6}`);
- });
- it('Tests multiplication operation', () => {
-   fireEvent.click(screen.getByText('x'));
-   fireEvent.click(screen.getByText('6'));
-   fireEvent.click(screen.getByText('='));
-   expect(result.textContent).toEqual(`${9 * 6}`);
- });
+  it('Tests addition operation', () => {
+    fireEvent.click(screen.getByText('+'));
+    fireEvent.click(screen.getByText('6'));
+    fireEvent.click(screen.getByText('='));
+    expect(result.textContent).toEqual(`${9 + 6}`);
+  });
+  it('Tests substraction operation', () => {
+    fireEvent.click(screen.getByText('-'));
+    fireEvent.click(screen.getByText('6'));
+    fireEvent.click(screen.getByText('='));
+    expect(result.textContent).toEqual(`${9 - 6}`);
+  });
+  it('Tests division operation', () => {
+    fireEvent.click(screen.getByText('÷'));
+    fireEvent.click(screen.getByText('6'));
+    fireEvent.click(screen.getByText('='));
+    expect(result.textContent).toEqual(`${9 / 6}`);
+  });
+  it('Tests multiplication operation', () => {
+    fireEvent.click(screen.getByText('x'));
+    fireEvent.click(screen.getByText('6'));
+    fireEvent.click(screen.getByText('='));
+    expect(result.textContent).toEqual(`${9 * 6}`);
+  });
 });
