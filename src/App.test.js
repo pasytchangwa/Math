@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-expressions */
+import React from 'react';
 import {
   render, fireEvent, waitFor, screen,
 } from '@testing-library/react';
@@ -18,7 +19,7 @@ test('does not render the calculator page', () => {
 });
 
 test('Should do math operations', async () => {
-  const calculator = screen.queryByTitle('calculator');
+  const calculator = screen.queryByTitle('calculate');
   fireEvent.click(calculator);
 
   await waitFor(() => {
@@ -27,19 +28,20 @@ test('Should do math operations', async () => {
 
   fireEvent.click(screen.getByText('1'));
   await waitFor(() => {
-    screen.getByText('1', { selector: '.input', exact: true });
+    screen.getByText('1', { selector: '.operation-result', exact: true });
   });
   fireEvent.click(screen.getByText('+'));
 
   fireEvent.click(screen.getByText('2'));
   await waitFor(() => {
-    screen.getByText('2', { selector: '.input', exact: true });
+    screen.getByText('2', { selector: '.operation-result', exact: true });
   });
 
   fireEvent.click(screen.getByText('='));
   await waitFor(() => {
-    screen.getByText('3', { selector: '.input', exact: true });
+    screen.getByText('3', { selector: '.operation-result', exact: true });
   });
 
-  expect(screen.getByText(/3/, { selector: '.input', exact: true })).toBeInTheDocument;
+  expect(screen.getByText(/3/, { selector: '.operation-result', exact: true }))
+    .toBeInTheDocument;
 });
