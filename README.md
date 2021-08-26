@@ -27,7 +27,7 @@ This project is build with:
 - CSS;
 - JavaScript, ReactJs.
 
-## Getting Started
+## Cloning the project
 
 To get the content of this project locally you need to run this command in your terminal:
 
@@ -35,7 +35,7 @@ To get the content of this project locally you need to run this command in your 
 - `cd Math`
 - Use `npm start` to run the app in live server
 
-## Test
+## Linters
 
 For tracking linter errors locally you need to follow these steps:
 
@@ -58,11 +58,6 @@ For tracking linter errors locally you need to follow these steps:
 
 - Use `npm run build` to run the app in live server
 
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -75,7 +70,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm test/npm run test
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
