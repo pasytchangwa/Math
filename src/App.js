@@ -12,7 +12,7 @@ const App = () => (
     <Switch>
       <div>
         <Nav />
-        <Route path="/home">
+        <Route exact path="/home">
           <Home />
         </Route>
         <Route path="/calculate">
