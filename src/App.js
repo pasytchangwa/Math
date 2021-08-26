@@ -1,4 +1,3 @@
-/* eslint-disable max-classes-per-file, react/prefer-stateless-function */
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
