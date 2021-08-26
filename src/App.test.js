@@ -19,7 +19,7 @@ test('does not render the calculator page', () => {
 });
 
 test('Should do math operations', async () => {
-  const calculator = screen.queryByTitle('calculate');
+  const calculator = screen.queryByTitle('calculator');
   fireEvent.click(calculator);
 
   await waitFor(() => {
