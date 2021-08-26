@@ -1,4 +1,3 @@
-/* eslint-disable max-classes-per-file, react/prefer-stateless-function */
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
@@ -13,7 +12,7 @@ const App = () => (
     <Switch>
       <div>
         <Nav />
-        <Route path="/home">
+        <Route exact path="/home">
           <Home />
         </Route>
         <Route path="/calculate">

@@ -14,12 +14,12 @@ const Nav = () => {
       <h2 className="title">Math magicians</h2>
       <ul>
         <li style={navStyle}>
-          <Link style={dec} to="/home">
+          <Link title="home" style={dec} to="/home">
             Home |
           </Link>
         </li>
         <li style={navStyle}>
-          <Link style={dec} to="/calculate">
+          <Link title="calculator" style={dec} to="/calculate">
             Calculator |
           </Link>
         </li>
