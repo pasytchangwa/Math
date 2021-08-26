@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It should render the calculation result 1`] = `
+<div
+  className="wrapper"
+>
+  <span
+    className="operation-result"
+  >
+    0
+  </span>
+  <section
+    className="main-section"
+  >
+    <button
+      className="left-most cell1"
+      name="AC"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="left-most cell2"
+      name="+/-"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="left-most cell3"
+      name="%"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="right-most cell4"
+      name="÷"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="left-most cell5"
+      name="7"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="left-most cell6"
+      name="8"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="left-most cell7"
+      name="9"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="right-most cell8"
+      name="x"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="left-most cell9"
+      name="4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="left-most cell10"
+      name="5"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="left-most cell11"
+      name="6"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="right-most cell12"
+      name="-"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="left-most cell13"
+      name="1"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="left-most cell14"
+      name="2"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="left-most cell15"
+      name="3"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="right-most cell16"
+      name="+"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="left-most cell17"
+      name="0"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="left-most cell18"
+      name="."
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="right-most cell19"
+      name="="
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </section>
+</div>
+`;
