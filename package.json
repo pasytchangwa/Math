@@ -2,6 +2,10 @@
   "name": "math-magicians",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.7.0",
+    "npm": "7.20.3"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/user-event": "^12.8.3",
