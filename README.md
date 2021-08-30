@@ -17,6 +17,12 @@ The aim of this project is to learn how to use React.
 
 [Click here](https://pasytchangwa.github.io/Math/) to see a sample demo.
 
+## Heroku
+[Click here](https://math-magic-syl.herokuapp.com/) to see deployment on Heroku
+
+## Netlify
+[Click here](https://fervent-ardinghelli-103e12.netlify.app/home) to see deployment on Netlify
+
 ![Screenshot from 2021-08-24 20-45-20](https://user-images.githubusercontent.com/64914462/130664708-721aec89-ced5-4766-add7-b12849b99692.png)
 
 ## Built With
